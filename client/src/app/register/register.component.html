@@ -2,10 +2,18 @@
   <h2 class="text-center text-primary">Register</h2>
   <hr>
   <div class="form-group">
-    <input type="text" name="username" [(ngModel)]="model.username" placeholder="Username" class="form-control">
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" [(ngModel)]="model.username" name="username" id="username"
+        placeholder="Username">
+      <label for="floatingInput">Username</label>
+    </div>
   </div>
   <div class="form-group">
-    <input type="password" name="password" [(ngModel)]="model.password" placeholder="Password" class="form-control">
+    <div class="form-floating mb-3">
+      <input type="password" id="password" name="password" [(ngModel)]="model.password" placeholder="Password"
+        class="form-control">
+      <label for="password">Password</label>
+    </div>
   </div>
   <div class="form-group text-center">
     <button class="btn btn-success mr-2" type="submit">Register</button>
