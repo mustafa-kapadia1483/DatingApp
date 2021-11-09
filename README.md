@@ -1,2 +1,2 @@
 # DatingApp
-Made using .Net Entity Relation Framework along with Angular for the frontend as mini project for AWP Subject in Sem 5
+Made using .Net Entity Relationship Framework along with Angular for the frontend as mini project for AWP Subject in Sem 5
