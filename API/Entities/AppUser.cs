@@ -8,7 +8,7 @@ namespace API.Entities
 {
     public class AppUser
     {
-        public   int Id { get; set; }
+        public int Id { get; set; }
         public String UserName { get; set; }
 
         // Full Implementation of above short hand implementation
